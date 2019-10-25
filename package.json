@@ -10,9 +10,16 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@ant-design/react-native": "^3.2.0",
+    "install": "^0.13.0",
+    "native-base": "^2.13.8",
+    "npm": "^6.12.0",
     "react": "16.9.0",
     "react-native": "0.61.2",
-    "react-native-typescript-transformer": "^1.2.13"
+    "react-native-elements": "^1.2.6",
+    "react-native-typescript-transformer": "^1.2.13",
+    "react-navigation": "^4.0.10",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
