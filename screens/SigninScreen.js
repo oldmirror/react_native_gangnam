@@ -1,13 +1,12 @@
 import React from 'react';
 import {View, Text, Image} from 'react-native';
 import styled from 'styled-components';
-import {Auth} from 'aws-amplify';
 import {Button} from 'native-base';
 
 const SigninScreen = props => {
   const handleSignin = async () => {
     try {
-      const signin = await Auth.signIn('abc@gmail.com', '1234qwer');
+      const signin = {'abc@gmail.com', '1234qwer'};
       console.log(signin);
     } catch (err) {
       console.log(err);
